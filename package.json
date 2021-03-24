@@ -1,0 +1,12 @@
+{
+	"name": "com.markyabagames.packages.eventsystem",
+	"version": "1.0.0",
+	"displayName": "Markyaba scriptable objects event system.",
+	"description": "This packages adds the scriptable object event system to the project.",
+	"unity": "2020 or newer",
+	"author": {
+		"name": "Markus Baars",
+		"email": "markus@baars42.de",
+		"url": "https://baars42.de"
+	}
+}
