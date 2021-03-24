@@ -11,9 +11,12 @@ namespace MarkyabaGames.Packages.EventSystem
     {
 	    private readonly List<GameEventListener> m_Listeners = new List<GameEventListener>();
 
+        /// <summary>
+        /// Raises all events listening to this game event.
+        /// </summary>
         public void Raise()
         {
-            for (int i = m_Listeners.Count; i >= 0; i--)
+            for (int i = m_Listeners.Count - 1; i >= 0; i--)
             {
                 m_Listeners[i].OnEventRaised();
             }
