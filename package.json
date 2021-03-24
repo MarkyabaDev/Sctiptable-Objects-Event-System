@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"displayName": "Markyaba scriptable objects event system.",
 	"description": "This packages adds the scriptable object event system to the project.",
-	"unity": "2020 or newer",
+	"unity": "2020.1",
 	"author": {
 		"name": "Markus Baars",
 		"email": "markus@baars42.de",

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using JetBrains.Annotations;
+using UnityEngine;
 using UnityEngine.Events;
 
 namespace MarkyabaGames.Packages.EventSystem
@@ -8,8 +9,8 @@ namespace MarkyabaGames.Packages.EventSystem
     /// </summary>
     public class GameEventListener : MonoBehaviour
     {
-        [SerializeField] private GameEvent m_Event;
-        [SerializeField] private UnityEvent m_Response;
+        [SerializeField] [UsedImplicitly] private GameEvent m_Event = null;
+        [SerializeField] [UsedImplicitly] private UnityEvent m_Response = null;
 
         private void OnEnable()
         {
